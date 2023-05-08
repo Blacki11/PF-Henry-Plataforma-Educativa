@@ -29,7 +29,7 @@ import ListaMaterias from "./Components/Admin/ListaMaterias/listaMaterias";
 import EditarMateria from "./Components/Admin/ListaMaterias/editarMateria/EditarMateria";
 import Tecnologías from "./Components/Landing/Tecnologias/Tecnologias";
 
-axios.defaults.baseURL = "https://plataforma-educativa-back.onrender.com";
+axios.defaults.baseURL = "https://reworkpeback.onrender.com";
 /* axios.defaults.baseURL = "http://localhost:3001"; */
 
 function App() {
