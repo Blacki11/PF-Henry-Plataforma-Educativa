@@ -1,14 +1,14 @@
 const { initializeApp } = require("firebase/app");
-const { getAuth, GoogleAuthProvider } = require('firebase/auth');
-const { getFirestore } = require('firebase/firestore');
+const { getAuth, GoogleAuthProvider } = require("firebase/auth");
+const { getFirestore } = require("firebase/firestore");
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBXF_CBgwstFxgBrvc9e21VfRywY6riHSM",
-  authDomain: "proyectofinal-1be5b.firebaseapp.com",
-  projectId: "proyectofinal-1be5b",
-  storageBucket: "proyectofinal-1be5b.appspot.com",
-  messagingSenderId: "1045733294568",
-  appId: "1:1045733294568:web:823e37b6e94101022b245d"
+  apiKey: "AIzaSyDTApTNhoNifkposqnHRMNFRYzRMcxnl2w",
+  authDomain: "rerworkpe.firebaseapp.com",
+  projectId: "rerworkpe",
+  storageBucket: "rerworkpe.appspot.com",
+  messagingSenderId: "425868164868",
+  appId: "1:425868164868:web:ce11c64901bc94fce45a51",
 };
 
 const app = initializeApp(firebaseConfig);
@@ -20,4 +20,4 @@ module.exports = {
   auth,
   googleprovider,
   db,
-}
+};
